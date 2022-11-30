@@ -1,0 +1,24 @@
+swordfish
+---------
+Web Device Log Viewer with named pipe
+Mainly targeting the JSON output of QuISP
+Can be applied to any program interacting with UNIX named pipe
+Copyright (C) 2022 Collodi Choi
+All rights reserved.
+2022-Nov-25 Created by Collodi Choi
+---------
+
+requirements:
+    crowcpp (https://crowcpp.org)
+    imgui
+    emscripten
+
+usage:
+    ./swordfish
+
+config:
+    edit config.h and make.
+
+todo:
+    frontend under construction
+    modify the logging module of quisp so that it write the result into /tmp/swordfish.fifo
