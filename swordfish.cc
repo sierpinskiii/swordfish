@@ -21,7 +21,6 @@
 #include <sys/types.h>
 
 using namespace std;
-// cout << endl << "Initiating: " << PIPE_LOC << endl;
 TTYreader reader = TTYreader(LINK_LOC, MODE);
 
 crow::json::wvalue ftoj(std::string loc) {
@@ -81,7 +80,7 @@ int main(int argc, char *argv[])
         return ftoj(LINK_LOC)[key];
     });
 
-    app.port(18080).multithreaded().run();
+    app.port(8080).multithreaded().run();
 
     return 0;
 }

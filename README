@@ -2,7 +2,6 @@ swordfish
 ---------
 Web Log Viewer with a simple file monitoring
 Mainly targeting the JSON output of QuISP
-Can be applied to any program interacting with UNIX named pipe
 Copyright (C) 2022 Collodi Choi
 All rights reserved.
 2022-Nov-25 Created by Collodi Choi
